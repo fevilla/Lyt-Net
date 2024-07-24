@@ -67,8 +67,6 @@ LOLv2 - [Google Drive](https://drive.google.com/file/d/1OMfP6Ks2QKJcru1wS2eP629P
 
 </details>
 
-**Note:** ```data``` directory should be placed under the ```TensorFlow``` implementation folder.
-
 ### 3. Test
 [Google Drive](https://drive.google.com/drive/folders/1LgLUXGy-7fQXVnxyEeyBolkZ5ZX1f_em?usp=sharing). 
 
