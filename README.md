@@ -45,39 +45,25 @@ LOLv2 - [Google Drive](https://drive.google.com/file/d/1OMfP6Ks2QKJcru1wS2eP629P
 [Google Drive](https://drive.google.com/drive/folders/1LgLUXGy-7fQXVnxyEeyBolkZ5ZX1f_em?usp=sharing). 
 
 ```bash
-# Test on LOLv1
 python main.py --test --dataset LOLv1 --weights pretrained_weights/LOLv1.h5
-# Test on LOLv1 using GT Mean
 python main.py --test --dataset LOLv1 --weights pretrained_weights/LOLv1.h5 --gtmean
 
-# Test on LOLv2 Real
 python main.py --test --dataset LOLv2_Real --weights pretrained_weights/LOLv2_Real.h5
-# Test on LOLv2 Real using GT Mean
 python main.py --test --dataset LOLv2_Real --weights pretrained_weights/LOLv2_Real.h5 --gtmean
 
-# Test on LOLv2 Synthetic
 python main.py --test --dataset LOLv2_Synthetic --weights pretrained_weights/LOLv2_Synthetic.h5
-# Test on LOLv2 Synthetic using GT Mean
 python main.py --test --dataset LOLv2_Synthetic --weights pretrained_weights/LOLv2_Synthetic.h5 --gtmean
 ```
 
 ### 4. Complejidad Computacional
 ```bash
-# To run FLOPS check with default (1,256,256,3)
 python main.py --complexity
-
-# To run FLOPS check with custom (1,H,W,C)
 python main.py --complexity --shape '(H,W,C)'
 ```
 
 ### 5. Train
 
 ```bash
-# Train on LOLv1
 python main.py --train --dataset LOLv1
-
-# Train on LOLv2 Real
 python main.py --train --dataset LOLv2_Real
-
-# Train on LOLv2 Synthetic
 python main.py --train --dataset LOLv2_Synthetic
