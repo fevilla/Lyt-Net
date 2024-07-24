@@ -1,4 +1,4 @@
-# LYT-Net: Lightweight YUV Transformer-based Network for Low-Light Image Enhancement
+# LYT-Net
 
 
 ## Experiment
@@ -23,9 +23,6 @@ LOLv2 - [Google Drive](https://drive.google.com/file/d/1OMfP6Ks2QKJcru1wS2eP629P
 
 
 <details>
-  <summary>
-  <b>Datasets should be organized as follows:</b>
-  </summary>
 
   ```
     |--data   
@@ -40,29 +37,6 @@ LOLv2 - [Google Drive](https://drive.google.com/file/d/1OMfP6Ks2QKJcru1wS2eP629P
     |    |    |    |     ...
     |    |    |    |--target
     |    |    |    |     ...
-    |    |--LOLv2
-    |    |    |--Real_captured
-    |    |    |    |--Train
-    |    |    |    |    |--Low
-    |    |    |    |    |     ...
-    |    |    |    |    |--Normal
-    |    |    |    |    |     ...
-    |    |    |    |--Test
-    |    |    |    |    |--Low
-    |    |    |    |    |     ...
-    |    |    |    |    |--Normal
-    |    |    |    |    |     ...
-    |    |    |--Synthetic
-    |    |    |    |--Train
-    |    |    |    |    |--Low
-    |    |    |    |    |    ...
-    |    |    |    |    |--Normal
-    |    |    |    |    |    ...
-    |    |    |    |--Test
-    |    |    |    |    |--Low
-    |    |    |    |    |    ...
-    |    |    |    |    |--Normal
-    |    |    |    |    |    ...
   ```
 
 </details>
